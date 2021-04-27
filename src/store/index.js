@@ -19,7 +19,6 @@ export default new Vuex.Store({
   },
   actions: {
     agregarProducto: ({commit}, producto) => {
-      console.log("entro a Acction agregarProducto")
       commit('AGREGAR_PRODUCTO', producto)
     }
   },
